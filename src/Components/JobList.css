@@ -5,7 +5,7 @@
   align-items: center;         /* Center items horizontally */
   justify-content: center;     /* Center items vertically */
   padding: 20px;              /* Add padding around the container */
-  max-width: 800px;           /* Limit the maximum width */
+  max-width: 800px;           /* Limit the maximum width *c/
   margin: 0 auto;             /* Center the container */
 }
 
