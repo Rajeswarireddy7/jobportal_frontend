@@ -1,0 +1,32 @@
+/* MostRecruiters.css */
+.recruiters-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .recruiters-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .recruiter-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recruiter-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .recruiter-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  

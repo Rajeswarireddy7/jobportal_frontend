@@ -1,0 +1,100 @@
+.login {
+  max-width: 600px; /* Width of the login box */
+  margin: 2rem auto; /* Center the login form */
+  padding: 3rem; /* Decreased padding to reduce height */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login h2 {
+  text-align: center;
+  color: #0056b3;
+  margin-bottom: 0.5rem; /* Reduced margin below heading */
+}
+
+.login form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login label {
+  margin-top: 10px; /* Keep some margin for spacing */
+  font-weight: 600;
+  display: flex; /* Use flex to align label and input */
+  flex-direction: column; /* Stack label and input */
+  align-items: flex-start; /* Align label to the start */
+}
+
+.login input {
+  padding: 10px; /* Maintain padding for input fields */
+  margin-top: 10px; /* Spacing above inputs */
+  border: 2px solid #ccc; /* Added border for inputs */
+  border-radius: 1px; /* Rounded corners */
+  font-size: 1rem; /* Standard font size */
+  margin-left: 10px; /* Moves input fields to the right */
+  margin-right: 30px; /* Increased right margin for extra spacing */
+}
+
+.login button {
+  margin-top: 15px; /* Reduced margin to decrease height */
+  padding: 10px;
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  border-radius: 6px; /* Added border-radius for button */
+  font-size: 1rem; /* Medium size */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.login button:hover {
+  background-color: #004494; /* Darker blue on hover */
+}
+
+.login p {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.9rem; /* Slightly smaller font size */
+}
+
+.social-login {
+  display: flex;
+  flex-direction: column; /* Stacks the buttons vertically */
+  margin-top: 10px; /* Reduced margin above the social buttons */
+}
+
+.social-login .google-btn,
+.social-login .facebook-btn {
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px; /* Added border-radius for social buttons */
+  margin-bottom: 5px; /* Adjusted margin for spacing between buttons */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.social-login .google-btn {
+  background-color: #db4437; /* Google Red */
+  margin-top: 10px; /* Slightly increased margin to move it up */
+}
+
+.social-login .facebook-btn {
+  background-color: #4267B2; /* Facebook Blue */
+}
+
+.social-login .google-btn:hover {
+  background-color: #c13533; /* Darker Google Red on hover */
+}
+
+.social-login .facebook-btn:hover {
+  background-color: #3b5998; /* Darker Facebook Blue on hover */
+}
+
+.register-link {
+  margin-top: 10px; /* Reduced spacing */
+  font-size: 0.9rem; /* Slightly smaller font size */
+}

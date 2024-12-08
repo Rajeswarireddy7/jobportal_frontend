@@ -1,0 +1,48 @@
+.trending-jobs-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.job-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.job-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.job-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  margin-bottom: 10px;
+}
+
+.skills-list ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skill-item {
+  background-color: #e0e0e0;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin: 3px;
+}
+
+.job-details p {
+  margin: 5px 0;
+  font-weight: 500;
+}

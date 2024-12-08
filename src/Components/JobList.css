@@ -1,0 +1,54 @@
+/* JobList.css */
+.job-list {
+  display: flex;               /* Use flexbox for layout */
+  flex-direction: column;      /* Stack items vertically */
+  align-items: center;         /* Center items horizontally */
+  justify-content: center;     /* Center items vertically */
+  padding: 20px;              /* Add padding around the container */
+  max-width: 800px;           /* Limit the maximum width */
+  margin: 0 auto;             /* Center the container */
+}
+
+.job-list-title {
+  text-align: center;          /* Center the title text */
+  font-size: 24px;            /* Set font size for the title */
+  margin-bottom: 20px;        /* Space below the title */
+  color: #0056b3;             /* Set color for the title */
+  font-weight: bold;          /* Make the title bold */
+}
+
+.job-card {
+  width: 100%;                /* Full width of the job card */
+  max-width: 500px;           /* Max width of job card */
+  padding: 15px;              /* Padding inside job card */
+  margin-bottom: 20px;        /* Space below each job card */
+  border: 1px solid #ddd;     /* Border around job card */
+  border-radius: 8px;         /* Rounded corners */
+  background-color: #f9f9f9;  /* Background color for job card */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.job-card h3 {
+  font-size: 20px;            /* Font size for job title */
+  margin: 0;                  /* Remove margin */
+  color: #333;                /* Color for job title */
+}
+
+.job-card p {
+  margin: 10px 0;             /* Margin for paragraphs */
+  color: #666;                /* Color for description text */
+}
+
+.apply-button {
+  padding: 10px 15px;         /* Padding for the button */
+  background-color: #0056b3;  /* Background color for button */
+  color: white;               /* Text color for button */
+  border: none;               /* Remove border */
+  border-radius: 4px;        /* Rounded corners */
+  cursor: pointer;            /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.apply-button:hover {
+  background-color: #009414;  /* Darker blue on hover */
+}
